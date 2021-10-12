@@ -5,7 +5,7 @@
 	      'lastName'=> $_POST["lname"],
 	      'age'=>$_POST["age"],
 		  'destination'=>$_POST["destination"],
-		  'lanuage'=>$_POST["age"],
+		  'lanuage'=>$_POST["choice"],
 	      'email'=> $_POST["email"],
 		  'password'=> $_POST["password"],
 		  'image'=>$_POST["filename"]
