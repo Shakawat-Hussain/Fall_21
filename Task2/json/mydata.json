@@ -1,62 +1,12 @@
 [
     {
-        "firstName": null,
-        "lastName": null,
-        "age": "56",
-        "destination": "senior",
-        "lanuage": "56",
-        "email": "abc@gmail.com",
-        "password": "4321",
-        "image": "Screenshot (26).png"
-    },
-    {
-        "firstName": "xyz",
-        "lastName": "abc",
-        "age": "56",
-        "destination": "senior",
-        "lanuage": "56",
-        "email": "abc@gmail.com",
-        "password": "4321",
-        "image": "Screenshot (26).png"
-    },
-    {
-        "firstName": null,
-        "lastName": null,
-        "age": null,
-        "destination": null,
-        "lanuage": null,
-        "email": null,
-        "password": null,
-        "image": null
-    },
-    {
-        "firstName": "vvc",
-        "lastName": "cde",
+        "firstName": "abc",
+        "lastName": "cvd",
         "age": "14",
-        "destination": "junior",
-        "lanuage": "14",
-        "email": "cdr@gmail.com",
-        "password": "2541",
-        "image": "Use_case_CITWSP.png"
-    },
-    {
-        "firstName": "SQE",
-        "lastName": "WQA",
-        "age": "56",
         "destination": "senior",
         "lanuage": "C++",
-        "email": "SQE@gmail.com",
+        "email": "xyz@gmail.com",
         "password": "3214",
         "image": "Use_case_CITWSP.png"
-    },
-    {
-        "firstName": null,
-        "lastName": null,
-        "age": null,
-        "destination": null,
-        "lanuage": null,
-        "email": null,
-        "password": null,
-        "image": null
     }
 ]
