@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Registration form </h1>
+<form action="DB/db.php" method="post">
+First name: <input type="text" id="fname" name="fname"> 
+<br>
+Last name: <input type="text" id="lname"name="lname"> 
+<br>
+E-mail: <input type="text" name="email"> <br>
+
+<br>
+Gender: <input type="radio" id="m" name="gender" value="male">
+             <label for="m">Male</label>
+  
+             <input type="radio" id="f" name="gender" value="female">
+             <label for="f">Female</label><br>
+Mobile No: <input type="text" name="mobno"><br> 
+Date of Birth: <input type="date" id="birth" name="birth"><br> 
+HSC: <input type="text" name="hsc"> <br> 
+SSC: <input type="text" name="ss"> <br> 
+Select a Course You want to Enroll: <select id="crs" name="cource">
+    <option value="CSE">CSE</option>
+    <option value="EEE">EEE</option>
+    <option value="BBA">BBA</option>
+    <option value="FST">FST</option>
+  </select><br>
+ Choose Enrolling year: <select id="yr" name="year">
+    <option value="2021">2021</option>
+    <option value="2020">2020</option>
+    <option value="2019">2019</option>
+    <option value="2018">2018</option>
+  </select><br>
+Choose Enrolling season: <select id="ssn" name="season">
+    <option value="Summer">SUMMER</option>
+    <option value="Winter">WINTER</option>
+    <option value="FALL">FALL</option>
+  </select><br>
+<br>
+<button type="button" onclick="alert('Data inserted')">Insert Data</button>
+</form>
+</body>
+</html>
