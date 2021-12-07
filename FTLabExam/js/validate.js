@@ -22,7 +22,7 @@ function department()
 {
    
     var department=document.getElementById("dept").value;
-   //console.log(pw.length); 
+   
     if(department!="")
     {
         document.getElementById("error2").innerHTML="You entered: "+department;
@@ -43,7 +43,7 @@ function Salary()
 {
    
     var salry=document.getElementById("sal").value;
-   //console.log(pw.length); 
+  
     if(isNaN(salry))
     {
         document.getElementById("error5").innerHTML="invalid salary";
@@ -66,7 +66,7 @@ function joindate()
 {
    
     var joined=document.getElementById("joined").value;
-   //console.log(pw.length); 
+    
     if(joined!="")
     {
         document.getElementById("error3").innerHTML="You entered: "+joined;
@@ -100,8 +100,5 @@ function alltrue()
         return false;
         
     }
-    //var pw=document.getElementById("password").value;
-    //var un=document.getElementById("email").value;
-    alert("Your email is: "+un+ "And password is "+pw);
-    //return false;
+    
 }
