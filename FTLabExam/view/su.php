@@ -9,17 +9,17 @@
         
         <br>
         <br>
-        Name: <input type="text" id="name" name="name" placeholder="Enter name" onkeyup="ename()"><br>
+        Name: <input type="text" id="name" name="name" value="<?php echo $name; ?"> onkeyup="ename()"><br>
         <p id="error1"></p>
         <br>
         Department: 
-        <input type="text" id="dept" name="dept" placeholder="enter department" onkeyup="department()"><br>
+        <input type="text" id="dept" name="dept" value="<?php echo $dept; ?>" onkeyup="department()"><br>
         <br> <p id="error2"></p>
         Joining Date: 
-        <input type="date" id="joined" name="joined"  onkeyup="joindate()"><br>
+        <input type="date" id="joined" name="joined" value="<?php echo $joined; ?>" onkeyup="joindate()"><br>
         <br><br> <p id="error3"></p>
         Salary: 
-        <input type="text" id="sal" name="sal" placeholder="enter salary" onkeyup="Salary()"><br>
+        <input type="text" id="sal" name="sal" value="<?php echo $sal; ?>" onkeyup="Salary()"><br>
         <p id="error5"></p>
        <br>
         <p id="error4"></p>
